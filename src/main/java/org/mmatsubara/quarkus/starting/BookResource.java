@@ -11,7 +11,6 @@ public class BookResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        System.out.println("test");
         return "Hello from RESTEasy Reactive";
     }
 }
